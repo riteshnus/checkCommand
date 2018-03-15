@@ -1,0 +1,60 @@
+git init
+git remote add origin https://github.com/riteshnus/fuckingMedipalApp.git
+git add .
+git commit -m"Init commit"
+git push origin master
+
+git clone 
+git checkout -b <branchname>
+git add .
+git commit -m ""
+git push origin master
+
+
+git remote add origin https://github.com/riteshnus/MedipalApp.git
+
+
+git clone https://github.com/riteshnus/MedipalApp.git temp
+mv temp/.git Medipal/.git
+
+
+git clone <branch name>
+git checkout -b <branchname>
+git add .
+git commit -m ""
+git checkout
+git push origin master
+git branch
+
+----------for branch create and switch-------
+git checkout -b new-branch
+git status
+git add .
+git commit -m "new branch"
+git push origin new-branch
+
+-----------------------------------------------
+create branch for feature-----git checkout -b myfeature develop
+merge to develop branch ----- git checkout develop
+git merge --no-of myfeature
+git branch -d myfeature
+git push origin develop
+
+
+------------------README file include in first commit--------------------------
+
+release branch:
+git checkout -b release-1.2 develop
+./bump-version.sh 1.2
+git commit -a -m "BUmpeed version "
+git tag -a 1.2
+
+
+delete a branch- git branch -d release-1.2
+
+
+netstat -a -o -n
+taskkill /F /PID 28344
+
+kill -TERM 26533
+
